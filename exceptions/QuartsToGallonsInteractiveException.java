@@ -12,7 +12,7 @@ public class QuartsToGallonsInteractiveException {
         while (!validInput) {
             try {
                 // Creating dialog box
-                String quartsInput = JOptionPane.showInputDialog("How many quarts");
+                String quartsInput = JOptionPane.showInputDialog("How many quarts (Whole Numbers Only)");
                 quartsResult = Integer.parseInt(quartsInput);
                 // Set to true if input is valid to exit the loop
                 validInput = true; 
